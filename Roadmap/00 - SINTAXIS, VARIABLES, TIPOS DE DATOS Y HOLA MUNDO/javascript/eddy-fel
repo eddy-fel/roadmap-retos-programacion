@@ -1,0 +1,62 @@
+
+
+//empezado en la programacion https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+/* otra manera de interpretar un comentario en JS */
+
+//variables en JS VAR y LET
+
+var a = 1;
+console.log(a);
+
+a= 4; 
+console.log(a);
+
+let b = "hola mundo";
+console.log(b);
+
+b= 3; 
+console.log(b);
+
+/*const costante*/
+
+const constante = "Hola soy una constante";
+console.log(constante);
+
+//datos primitivos 
+
+
+//number 
+
+0,1,2,3,4,5, .04, 0.2 
+
+//string (cadena de caracters)
+
+"hols mundo";
+'hola mndo';
+`hola mundo`;
+
+//boleanos (verdadero o falso)
+
+true;
+false;
+
+//nulo o indefinido
+
+null;           //memoria vacia
+undefined;      //unidefinido
+
+
+//null, unidefined, false, 0 ========> TODAS SON FALSY
+
+console.log(null === undefined) 
+
+if(0){
+    console.log("cumple")
+}else{
+    console.log('no cumple')
+}
+
+//Imprimir por terminal
+
+console.log("Hola, JavaScript");
